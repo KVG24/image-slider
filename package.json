@@ -2,9 +2,10 @@
   "name": "image-slider-odin",
   "version": "1.0.0",
   "description": "TOP lesson \"Dynamic User Interface\". Image slider and dropdown menu practice.",
-  "private": true,
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pushpage": "git subtree push --prefix dist origin gh-pages"
   },
   "keywords": [],
   "author": "KVG24",
